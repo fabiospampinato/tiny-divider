@@ -1,0 +1,31 @@
+{
+  "name": "tiny-divider",
+  "repository": "github:fabiospampinato/tiny-divider",
+  "description": "A tiny simple terminal divider that spans the entire width of the terminal.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "node test/index.js",
+    "prepublishOnly": "npm run clean && npm run compile && npm run test"
+  },
+  "keywords": [
+    "tiny",
+    "cli",
+    "terminal",
+    "divider",
+    "simple"
+  ],
+  "dependencies": {
+    "tiny-colors": "^2.0.1"
+  },
+  "devDependencies": {
+    "tsex": "^1.0.4",
+    "typescript": "^4.6.3"
+  }
+}
