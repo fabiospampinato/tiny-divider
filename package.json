@@ -22,10 +22,10 @@
     "simple"
   ],
   "dependencies": {
-    "tiny-colors": "^2.0.1"
+    "tiny-colors": "^2.0.2"
   },
   "devDependencies": {
-    "tsex": "^1.0.4",
-    "typescript": "^4.6.3"
+    "tsex": "^2.2.0",
+    "typescript": "^4.9.5"
   }
 }
