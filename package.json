@@ -2,6 +2,7 @@
   "name": "tiny-divider",
   "repository": "github:fabiospampinato/tiny-divider",
   "description": "A tiny simple terminal divider that spans the entire width of the terminal.",
+  "license": "MIT",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
@@ -22,10 +23,10 @@
     "simple"
   ],
   "dependencies": {
-    "tiny-colors": "^2.0.2"
+    "tiny-colors": "^2.2.2"
   },
   "devDependencies": {
-    "tsex": "^3.0.1",
-    "typescript": "^5.1.6"
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
